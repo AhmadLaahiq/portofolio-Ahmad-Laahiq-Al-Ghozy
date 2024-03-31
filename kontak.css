@@ -1,0 +1,114 @@
+.header {
+    background-color: #f57c73;
+    color: #fcf4dd;
+    height: 90px;
+    display: flex;
+  }
+  
+  .header-logo {
+    float: left;
+    font-size: 36px;
+    padding: 20px 40px;
+  }
+
+  .header-logo a {
+  color: #fcf4dd;
+  }
+  
+  ul {
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px;
+    list-style: none;
+    position: absolute;
+    right: 0;
+  }
+  
+  li {
+  margin-left: 15px; 
+  }
+  
+  li a {
+    color: #fcf4dd;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  h1{
+    font-family: Segoe UI Black;
+    text-align: center;
+    margin: auto;
+    padding-top: 20px;
+  }
+
+  img {
+    display: block;
+    margin: auto;
+    width: 350px;  
+    height: 350px; 
+    border-radius: 30%; 
+    padding: 10px;  
+    object-fit: cover; 
+    margin-top: 60px;
+  }
+
+  p{ 
+    font-size:20px;
+    font-family: Comic Sans MS;
+    text-align: center;
+    line-height: 1.5;
+    padding: 40px 300px 40px 300px;
+  }
+  
+*{
+  margin: 0px;
+  padding :0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-decoration: none !important;
+}
+
+body{
+  background-color: #fcf4dd;
+}
+
+.ig-logo {
+    margin-top: 5px;
+    width: 75px;
+    height: 75px;
+}
+
+.wa-logo {
+    margin-top: 5px;
+    width: 75px;
+    height: 75px;
+}
+
+.fb-logo {
+  margin-bottom: 100px;
+  margin-top: 5px;
+  width: 75px;
+  height: 75px;
+}
+
+.footer {
+    background-color: #f68c70;
+    color: #fcf4dd;
+    height: 120px;
+    padding: 40px;
+  }
+
+  .footer-logo {
+    display: flex;
+    justify-content: center ;
+    font-size: 32px;
+  }
+
+  .footer-logo a {
+    color: #fcf4dd;
+    }
+
+    .footer-logo a {
+      color: #fcf4dd;
+      }

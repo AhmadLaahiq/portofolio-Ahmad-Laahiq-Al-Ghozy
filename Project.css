@@ -1,0 +1,145 @@
+.header {
+    background-color: #f57c73;
+    color: #fcf4dd;
+    height: 90px;
+    display: flex;
+  }
+  
+  .header-logo {
+    float: left;
+    font-size: 36px;
+    padding: 20px 40px;
+    color:#fcf4dd ;
+  }
+  
+  .header-logo a {
+    color: #fcf4dd;
+  }
+
+  ul {
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px;
+    list-style: none;
+    position: absolute;
+    right: 0;
+  }
+  
+  li {
+  margin-left: 15px; 
+  }
+  
+  li a {
+    color: #fcf4dd;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  *{
+    margin: 0px;
+    padding :0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none !important;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column; 
+  }
+  
+  img {
+    float: left;
+    margin-right: 20px;
+    display: block;
+    margin: auto;
+    width: 450px;  
+    height: 250px; 
+    border-radius:5%;  
+    object-fit: cover; 
+    margin: 60px;
+  }
+
+body{
+  background-color: #fcf4dd;
+}
+
+h1{
+  font-family: Segoe UI Black;
+  text-align: center;
+  margin: auto;
+  padding-top: 20px;
+}
+h2{
+  font-family: Segoe UI Black;
+  text-align:left;
+  margin: auto;
+  padding-top: 60px;
+}
+p{ 
+  font-size:20px;
+  font-family: Comic Sans MS;
+  text-align: left;
+  line-height: 1.5;
+}
+
+form {
+  max-width: 600px; /* Lebar maksimum formulir */
+  margin: 20px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #555;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="url"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+
+
+.footer {
+    background-color: #f68c70;
+    color: #fcf4dd;
+    height: 120px;
+    padding: 40px;
+  }
+
+  .footer-logo {
+    display: flex;
+    justify-content: center ;
+    font-size: 32px;
+  }
+
+  .footer-logo a {
+    color: #fcf4dd;
+    }
